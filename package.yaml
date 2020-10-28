@@ -20,6 +20,8 @@ dependencies:
 - extensible
 - lens
 - megaparsec
+- mtl
+- pretty
 - transformers
 
 library:

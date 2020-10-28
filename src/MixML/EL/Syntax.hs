@@ -89,4 +89,4 @@ type Sign = Annotated Sign'
 
 type Prog = Modl
 
-newtype Error = Errpr (Region, String) deriving (Show, Eq, Ord)
+data Error = Error Region String deriving (Show, Eq, Ord)
